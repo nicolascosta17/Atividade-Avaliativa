@@ -1,0 +1,56 @@
+Atividade Avaliativa - 28/08/2025
+
+Vence amanhã às 11:00
+
+Instruções
+Você foi contratado como estagiário técnico por uma loja de roupas que deseja digitalizar o registro de suas vendas diárias. No momento, tudo é feito no papel, mas o gerente quer uma solução simples para digitar o nome do produto vendido, o valor da venda e o nome do cliente.
+
+Ele quer:
+
+Uma tela web simples para registrar vendas
+
+Que os dados sejam enviados para um sistema por trás (uma API)
+
+Que as vendas cadastradas apareçam em uma lista na tela
+
+Criar essa solução com HTML, CSS, JavaScript e Flask.
+
+
+Tecnologias Utilizadas
+HTML + CSS + JS
+
+Flask (Python)
+
+API REST (GET e POST)
+
+Estrutura de pastas:
+
+
+loja_virtual/
+├── app.py
+├── templates/
+│   └── index.html
+├── static/
+│   ├── style.css
+│   └── script.js
+
+Funcionalidade Esperada
+Formulário com os seguintes campos:
+Produto (ex: Camiseta)
+
+Valor da venda (ex: 59.90)
+
+Nome do cliente (ex: João)
+
+Botões:
+“Registrar Venda”: envia os dados para a API
+
+Lista de Vendas: abaixo do formulário, exibe todas as vendas feitas
+
+Rotas da API em Flask
+GET /vendas → retorna a lista de vendas
+
+POST /vendas → recebe e armazena nova venda (em uma lista Python)
+
+
+Esta atividade deverá ser realizada individualmente e postada no dia 28/08/2025 até 10h30min
