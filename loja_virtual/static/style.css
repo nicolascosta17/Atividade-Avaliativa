@@ -3,7 +3,8 @@ body {
     margin: 30px;
 }
 
-h1, h2 {
+h1,
+h2 {
     text-align: center;
 }
 
@@ -11,7 +12,8 @@ form {
     text-align: center;
 }
 
-input, button {
+input,
+button {
     padding: 8px;
     margin: 5px;
 }
@@ -31,4 +33,32 @@ table {
 
 th {
     background: #f2f2f2;
+}
+
+.link {
+    background-color: #4CAF50;
+    /* Cor de fundo verde */
+    color: white;
+    /* Cor do texto branca */
+    padding: 15px 25px;
+    /* Preenchimento interno */
+    text-align: center;
+    /* Alinhamento do texto */
+    text-decoration: none;
+    /* Remove o sublinhado */
+    display: inline-block;
+    /* Permite o padding e margin */
+    font-size: 16px;
+    /* Tamanho da fonte */
+    cursor: pointer;
+    /* Muda o cursor para uma mãozinha */
+    border: none;
+    /* Remove a borda padrão */
+    border-radius: 5px;
+    /* Cantos arredondados */
+}
+
+.link:hover {
+    background-color: #45a049;
+    /* Cor de fundo mais escura ao passar o mouse */
 }
