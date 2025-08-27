@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Vendas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1 style="text-align:center;">📦 Produtos Cadastrados</h1>
+    <hr><br>
+
+    <table id="tabelaVendas">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Produto</th>
+                <th>Valor</th>
+                <th>Cliente</th>
+                <th>Ação</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <p id="nenhum" style="text-align:center; display:none;">❌ Nenhum produto cadastrado ainda.</p>
+
+    <br>
+    <a href="{{ url_for('homepage') }}">⬅ Voltar ao Cadastro</a>
+
+    <script src="{{ url_for('static', filename='consulta.js') }}"></script>
+</body>
+</html>
