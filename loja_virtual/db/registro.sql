@@ -1,0 +1,9 @@
+CREATE DATABASE registro;
+USE registro;
+
+CREATE TABLE Venda(
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    produto VARCHAR(100) NOT NULL,
+    valor REAL NOT NULL,
+    cliente VARCHAR(25) NOT NULL
+);
