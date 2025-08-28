@@ -10,6 +10,8 @@ Produtos, Valor da venda e Nome do cliente.
 
 Mostrando Id, Produto, Valor e Cliente
 
-# Comando para exportar banco de dados
+# Comando para exportar banco de dados no WAMPPSERVER
+
+Entre no CMD e digite o seguinte comando na seguinte pasta:
 
 C:\wamp64\bin\mysql\mysql9.1.0\bin>mysqldump -u root -p nome_do_banco > C:\Users\Usuário\Desktop\nome_do_banco.sql
