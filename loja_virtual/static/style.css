@@ -62,3 +62,22 @@ th {
     background-color: #45a049;
     /* Cor de fundo mais escura ao passar o mouse */
 }
+
+#tabelaVendas {
+    width: 80%;              /* largura da tabela */
+    margin: 0 auto;          /* centraliza a tabela na página */
+    border-collapse: collapse;
+    text-align: center;      /* centraliza o conteúdo */
+}
+
+#tabelaVendas th, 
+#tabelaVendas td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;      /* centraliza dentro das células */
+}
+
+#tabelaVendas thead {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
